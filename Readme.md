@@ -160,7 +160,7 @@ Comparison of baseline vs EWC on permuted MNIST tasks.
 | Method | Task 1 Final Acc. | Task 2 Final Acc. | Task 3 Final Acc. | Average Forgetting | Final Avg. Acc. |
 |--------|-------------------|-------------------|-------------------|--------------------|-----------------|
 | **Baseline** | ~27.0% | ~21.0% | ~87.0% | ~67.5% | ~45.0% |
-| **EWC (λ=5.0)** | ~86.0% | ~22.0% | ~66.0% | ~30.0% | ~58.0% |
+| **EWC (λ=0.05)** | ~86.0% | ~22.0% | ~66.0% | ~30.0% | ~58.0% |
 
 **Key Observations:**
 - EWC significantly reduces catastrophic forgetting
