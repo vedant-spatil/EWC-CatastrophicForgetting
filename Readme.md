@@ -116,8 +116,8 @@ Comparison of training with and without dropout regularization and early stoppin
 
 **Key Observations:**
 - Dropout (0.2 input, 0.5 hidden) prevents overfitting on new tasks
-- Early stopping (patience=5) reduces unnecessary training time by X%
-- Final average accuracy: **XX.X%** (no dropout) vs **YY.Y%** (with dropout)
+- Early stopping (patience=5) reduces unnecessary training time
+- Final average accuracy: **66%** (no dropout) vs **99%** (with dropout)
 
 ---
 
@@ -134,7 +134,7 @@ Comparison of baseline vs EWC on permuted MNIST tasks.
 <img src="assets/baseline_permuted_forgetting.png" alt="Baseline Forgetting Curve" width="100%"/>
 </td>
 <td width="50%">
-<p align="center"><strong>With EWC (λ=5.0)</strong></p>
+<p align="center"><strong>With EWC (λ=0.05)</strong></p>
 <img src="assets/ewc_permuted_forgetting.png" alt="EWC Forgetting Curve" width="100%"/>
 </td>
 </tr>
@@ -149,7 +149,7 @@ Comparison of baseline vs EWC on permuted MNIST tasks.
 <img src="assets/baseline_permuted_accuracy.png" alt="Baseline Accuracy" width="100%"/>
 </td>
 <td width="50%">
-<p align="center"><strong>With EWC (λ=5.0)</strong></p>
+<p align="center"><strong>With EWC (λ=0.05)</strong></p>
 <img src="assets/ewc_permuted_accuracy.png" alt="EWC Accuracy" width="100%"/>
 </td>
 </tr>
